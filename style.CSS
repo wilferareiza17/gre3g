@@ -1,0 +1,144 @@
+/* Estilos generales */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #333;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.navbar-brand,
+.navbar-nav li a {
+    color: #fff;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li.active a {
+    background-color: #555;
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-color: #f0f0f0;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.jumbotron h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.jumbotron p {
+    font-size: 1.5em;
+    color: #555;
+}
+
+/* Productos */
+.thumbnail {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    transition: box-shadow 0.3s ease;
+}
+
+.thumbnail:hover {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.thumbnail img {
+    max-width: 100%;
+    height: auto;
+}
+
+.thumbnail .caption {
+    text-align: center;
+}
+
+.thumbnail h3 {
+    font-size: 1.5em;
+    margin-top: 10px;
+    color: #333;
+}
+
+.thumbnail p {
+    font-size: 1.2em;
+    color: #777;
+}
+
+.thumbnail .btn-primary {
+    background-color: #333;
+    border-color: #333;
+}
+
+.thumbnail .btn-primary:hover {
+    background-color: #555;
+    border-color: #555;
+}
+
+/* Formulario de Contacto */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #555;
+}
+
+.btn-primary {
+    background-color: #333;
+    border-color: #333;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #555;
+    border-color: #555;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer p {
+    margin: 0;
+}
+
+/* Responsiveness */
+@media (max-width: 767px) {
+    .jumbotron h1 {
+        font-size: 2em;
+    }
+
+    .jumbotron p {
+        font-size: 1.2em;
+    }
+
+    .thumbnail {
+        margin-bottom: 30px;
+    }
+}
